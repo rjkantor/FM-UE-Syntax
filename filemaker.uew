@@ -3,8 +3,6 @@
 /Indent Strings = "(" "["
 /Unindent Strings = "]" ")"
 /C1"Reserved Keywords" Colors = 3932119
-True
-False
 Roman
 Greek
 Cyrillic
@@ -39,55 +37,59 @@ $ $$ ~
 /C3"Boolean"
 TRUE FALSE    
 /C4"Operators" 
-AND OR XOR NOT 
+AND OR XOR NOT & \ ¶
 /C5"Functions" Colors = 16523551
-Average
-Count
-GetSummary
-Max Min
-StDev StDevP Sum
-Variance VarianceP
-Date Day DayName DayNameJ DayOfWeek DayOfYear
-GetAsDate GetAsTime GetAsTimestamp
-Hour 
-Minute Month MonthName MonthNameJ
-Seconds
-Time Timestamp
-WeekOfYear WeekOfYearFiscal
-Year YearName
-DatabaseNames
-FieldBounds FieldComment FieldIDs FieldNames FieldRepetitions FieldStyle FieldType
-GetNextSerialValue
-LayoutIDs LayoutNames
-RelationInfo
-ScriptIDs ScriptNames
-TableIDs TableNames
-ValueListIDs ValueListItems ValueListNames
-WindowNames
+Average Count List Max Min StDev StDevP Sum Variance VarianceP
+GetHeight GetThumbnail GetWidth VerifyContainer
+Date Day DayName DayNameJ DayOfWeek DayOfYear Month MonthName MonthNameJ WeekOfYear WeekOfYearFiscal Year YearName
+DatabaseNames FieldBounds FieldComment FieldIDs FieldNames FieldRepetitions FieldStyle FieldType GetNextSerialValue LayoutIDs LayoutNames LayoutObjectNames RelationInfo ScriptIDs ScriptNames TableIDs TableNames ValueListIDs ValueListItems ValueListNames WindowNames
+External
 FV NPV PMT PV
-Case Choose
-Evaluate EvaluationError
-GetField
-If IsEmpty IsValid IsValidExpression
-Let Lookup LookupNext
-Quote
-Abs
-Ceiling Combination
-Div
-Exp
-Factorial Floor
-GetAsNumber
-Int
-Lg Ln Log
-Mod
-Random Round
-SetPrecision Sign Sqrt
-Truncate
-Extend
-GetRepetition
-Last
-Get(AccountName) Get(ActiveFieldContents) Get(ActiveFieldName) Get(ActiveFieldTableName) Get(ActiveModifierKeys) Get(ActiveRepetitionNumber) Get(ActiveSelectionSize) Get(ActiveSelectionStart) Get(AllowAbortState) Get(AllowToolbarState) Get(ApplicationLanguage) Get(ApplicationVersion) Get(CalculationRepetitionNumber) Get(CurrentDate) Get(CurrentHostTimestamp) Get(CurrentTime) Get(CurrentTimestamp) Get(ErrorCaptureState) Get(ExtendedPrivileges) Get(FileName) Get(FilePath) Get(FileSize) Get(FoundCount) Get(HighContrastColor) Get(HighContrastState) Get(HostName) Get(LastError) Get(LastMessageChoice) Get(LastODBCError) Get(LayoutAccess) Get(LayoutCount) Get(LayoutName) Get(LayoutNumber) Get(LayoutTableName) Get(LayoutViewState) Get(MultiUserState) Get(NetworkProtocol) Get(PageNumber) Get(PortalRowNumber) Get(PrinterName) Get(PrivilegeSetName) Get(RecordAccess) Get(RecordID) Get(RecordModificationCount) Get(RecordNumber) Get(RequestCount) Get(ScreenDepth) Get(ScreenHeight) Get(ScreenWidth) Get(ScriptName) Get(ScriptParameter) Get(SortState) Get(StatusAreaState) Get(SystemIPAddress) Get(SystemLanguage) Get(SystemNICAddress) Get(SystemPlatform) Get(SystemVersion) Get(TotalRecordCount) Get(UserCount) Get(UserName) Get(WindowContentHeight) Get(WindowContentWidth) Get(WindowDesktopHeight) Get(WindowDesktopWidth) Get(WindowHeight) Get(WindowLeft) Get(WindowMode) Get(WindowName) Get(WindowTop) Get(WindowVisible) Get(WindowWidth) Exact Filter FilterValues GetAsCSS GetAsSVG GetAsText Left LeftValues LeftWords Length Lower Middle MiddleValues MiddleWords PatternCount Position Proper Replace RGB Right RightValues RightWords SerialIncrement Substitute TextColor TextFont TextSize TextStyleAdd TextStyleRemove Trim TrimAll Upper ValueCount WordCount Atan Cos Degrees Pi Radians Sin Tan Hiragana KanaHankaku KanaZenkaku KanjiNumeral Katakana NumToJText RomanHankaku RomanZenkaku GetAsBoolean GetNthRecord Get (AllowToolbarState) Get(CustomMenuSetName) Get(DesktopPath) Get(DocumentsPath) Get(FilemakerPath) Get(HostIPAddress) Get(PreferencesPath) Get(RecordOpenCount) Get(RecordOpenState) Get(RequestOmitState) Get(ScriptResult) Get(SystemDrive) Get(TextRulerVisible) Get(UseSystemFormatsState) Get(WindowZoomLevel) GetValue
-TextColorRemove TextFontRemove TextFormatRemove TextSizeRemove
-List LayoutObjectNames 
-GetLayoutObjectAttribute Get(ActiveLayoutObjectName) GetAsURLEncoded Self Get(HostApplicationVersion) Get(TemporaryPath)
-Acos Asin GetFieldName
+Get(AccountExtendedPrivileges) Get(AccountPrivilegeSetName)
+Get(AccountName) Get(ActiveFieldContents) Get(ActiveFieldName)
+Get(ActiveLayoutObjectName) Get(ActivePortalRowNumber)
+Get(ActiveFieldTableName) Get(ActiveModifierKeys) Get(ActiveRepetitionNumber)
+Get(ActiveSelectionSize) Get(ActiveSelectionStart) Get(AllowAbortState)
+Get(AllowFormattingbarState)
+Get(AllowToolbarState) Get(ApplicationLanguage) Get(ApplicationVersion)
+Get(CalculationRepetitionNumber) Get(ConnectionState) Get(CurrentDate)
+Get(CurrentExtendedPrivileges) Get(CurrentHostTimestamp) Get(CurrentPrivilegeSetName) 
+Get(CurrentTime) Get(CurrentTimestamp) Get(CustomMenuSetName) 
+Get(DesktopPath) Get(DocumentsPath) Get(DocumentsPathListing) 
+Get(ErrorCaptureState) Get(FilemakerPath) Get(FileName) Get(FilePath) Get(FileSize)
+Get(FoundCount) Get(HighContrastColor) Get(HighContrastState) 
+Get(HostApplicationVersion) Get(HostIPAddress) Get(HostName) 
+Get(InstalledFMPlugins) Get(LastError) Get(LastMessageChoice) Get(LastODBCError) Get(LayoutAccess)
+Get(LayoutCount) Get(LayoutName) Get(LayoutNumber) Get(LayoutTableName)
+Get(LayoutViewState) Get(MultiUserState) Get(NetworkProtocol) Get(PageNumber)
+Get(PersistentID) Get(PreferencesPath) Get(PrinterName) Get(QuickFindText)
+Get(RecordAccess) Get(RecordID) Get(RecordModificationCount) Get(RecordNumber)
+Get(RecordOpenCount) Get(RecordOpenState) Get(RequestCount) Get(RequestOmitState)
+Get(ScreenDepth) Get(ScreenHeight) Get(ScreenWidth) Get(ScriptName) Get(ScriptParameter)
+Get(ScriptResult) Get(SortState) Get(StatusAreaState) Get(SystemDrive)
+Get(SystemIPAddress) Get(SystemLanguage) Get(SystemNICAddress)
+Get(SystemPlatform) Get(SystemVersion) Get(TemporaryPath)
+Get(TextRulerVisible) Get(TotalRecordCount) Get(TriggerCurrentTabPanel)
+Get(TriggerKeystroke) Get(TriggerModifierKeys) Get(TriggerTargetTabPanel)
+Get(UserCount) Get(UserName) Get(UseSystemFormatsState) 
+Get(UUID) Get(WindowContentHeight) Get(WindowContentWidth)
+Get(WindowDesktopHeight) Get(WindowDesktopWidth) Get(WindowHeight) 
+Get(WindowLeft) Get(WindowMode) Get(WindowName) Get(WindowTop)
+Get(WindowVisible) Get(WindowWidth) Get(WindowZoomLevel) 
+Case Choose Evaluate EvaluationError ExecuteSQL GetAsBoolean GetField GetFieldName
+GetLayoutObjectAttribute GenNthRecord If IsEmpty IsValid IsValidExpression Let Lookup LookupNext Self
+Location LocationValues
+Abs Ceiling Combination Div Exp Factorial Floor Int Lg Ln Log Mod
+Random Round SetPrecision Sign Sqrt Truncate
+Extend GetRepetition Last GetSummary Char Code Exact Filter FilterValues
+GetAsCSS GetAsDate GetAsNumber GetAsSVG GetAsText GetAsTime
+GetAsTimestamp GetAsURLEncoded GetValue Hiragana KanaHankaku
+KanaZenkaku KanjiNumeral Katakana Left LeftValues LeftWords
+Length Lower Middle MiddleValues MiddleWords NumToJText
+PatternCount Position Proper Quote Replace Right RightValues RightWords
+RomanHankaku RomanZenkaku SerialIncrement Substitute Trim TrimAll
+Upper ValueCount WordCount
+RGB TextColor TextColorRemove TextFont TextFontRemove TextFormatRemove
+TextSize TextSizeRemove TextStyleAdd TextStyleRemove
+Hour Minute Seconds Time Timestamp
+Acos Asin Atan Cos Degrees Pi Radians Sin Tan
