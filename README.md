@@ -1,4 +1,7 @@
 FM-UE-Syntax
 ============
 
-Filemaker UE Syntax highlighting
+UltraEdit (Windows and Mac) Syntax highlighting for Filemaker.
+
+Initial release 4/29/12 - Release for public review.
+
