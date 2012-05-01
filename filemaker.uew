@@ -1,9 +1,11 @@
-/L20"Filemaker" Block Comment On = /* Block Comment Off = */ Line Comment = # String Chars = " Escape Char = \ File Extensions = fmfn
+/L20"Filemaker" Block Comment On = /* Block Comment Off = */ Line Comment = // String Chars = " Escape Char = \ File Extensions = fmfn
 /Delimiters = ~!@$%^*()+=\|&{}[]:;"'<> ,	?
 /Open Brace Strings =  "(" "[" 
 /Close Brace Strings =  ")" "]"
 /Indent Strings = "(" "["
-/Unindent Strings = "]" ")"
+/Unindent Strings = ")" "]"
+/Open Fold Strings = "(" "[" 
+/Close Fold Strings = ")" "]"
 /C1"Reserved Keywords" Colors = 3932119
 True
 False
