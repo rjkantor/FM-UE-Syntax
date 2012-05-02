@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/L20"Filemaker" Block Comment On = /* Block Comment Off = */ Line Comment = // String Chars = " Escape Char = \ File Extensions = fmfn xmlo xmtb xmsc xmss xmfn
-=======
-/L20"Filemaker" Block Comment On = /* Block Comment Off = */ Line Comment = // String Chars = " Escape Char = \ File Extensions = fmfn
->>>>>>> parent of 7f5e2c0... Added support for alternate comment line character #
+/L20"Filemaker" Block Comment On = /* Block Comment Off = */ Line Comment = // Line Comment Alt = # String Chars = " Escape Char = \ File Extensions = fmfn xmlo xmtb xmsc xmss xmfn
 /Delimiters = ~!@$%^*()+=\|&{}[]:;"'<> ,	?
 /Open Brace Strings =  "(" "[" 
 /Close Brace Strings =  ")" "]"
