@@ -1,4 +1,4 @@
-/L20"Filemaker" Block Comment On = /* Block Comment Off = */ Line Comment = // String Chars = " Escape Char = \ File Extensions = fmfn
+/L20"Filemaker" Block Comment On = /* Block Comment Off = */ Line Comment = // String Chars = " Escape Char = \ File Extensions = fmfn xmlo xmtb xmsc xmss xmfn
 /Delimiters = ~!@$%^*()+=\|&{}[]:;"'<> ,	?
 /Open Brace Strings =  "(" "[" 
 /Close Brace Strings =  ")" "]"
